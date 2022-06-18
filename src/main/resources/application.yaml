@@ -1,0 +1,12 @@
+spring:
+  security:
+      oauth2:
+        client:
+          registration:
+            google:
+              clientId: 98295719970-77n20ecduptuhn3bdfg0mij0ikoakuci.apps.googleusercontent.com
+              clientSecret: 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
+              redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+              scope:
+                - email
+                - profile
